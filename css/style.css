@@ -83,3 +83,25 @@ body {
 .button.equals:hover {
     background-color: #388e3c;
 }
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .calculator-buttons {
+        gap: 10px;
+    }
+
+    .calculator-container {
+        padding: 15px;
+        height: auto;
+        margin: 1rem 2rem;
+    }
+
+    .button {
+        font-size: 0.95em;
+        padding: 12px;
+    }
+
+    .calculator-display {
+        margin-bottom: 30px;
+    }
+}
